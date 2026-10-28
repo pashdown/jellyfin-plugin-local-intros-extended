@@ -1,9 +1,9 @@
 name: 'Local Intros Extended'
 guid: '5b2c93cf-d5a2-4a7b-a25e-04f76269df91'
-version: 5
+version: 6
 targetAbi: '12.0.0.0'
 framework: 'net10.0'
-owner: 'dheinst'
+owner: 'pashdown'
 overview: 'Display flashy intros before movies and other videos with an advanced rule engine'
 description: >
   Select flashy pre-rolls from local storage to run before any video content. Includes a sequential rule engine with percentage frequencies, library filtering, exclude tags, and release date range limits.
@@ -12,6 +12,8 @@ category: 'MoviesAndShows'
 artifacts:
   - 'Jellyfin.Plugin.LocalIntrosExtended.dll'
 changelog: |-
+  - Fix Refresh Videos / Hard Reset failing with "[object Response]": show real server errors, sequence requests, avoid GUID collisions, ignore non-video files
+  - Hard Reset now also clears rules as labeled
   - Jellyfin 12 support (.NET 10) and safe database migration without data loss
   - Jellyfin 10.11 support (#51) @crobibero
   - Update README.md (#41) @lukasitaly

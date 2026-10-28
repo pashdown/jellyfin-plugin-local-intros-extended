@@ -4,17 +4,17 @@
     "name": "Local Intros Extended",
     "description": "Play local intro videos and pre-rolls before media with an advanced sequential rule engine, percentage chances, and date/library filters.",
     "overview": "Display flashy local intros and pre-rolls before media with an advanced sequential rule engine.",
-    "owner": "dheinst",
+    "owner": "pashdown",
     "category": "MoviesAndShows",
-    "imageUrl": "https://raw.githubusercontent.com/dheinst/jellyfin-plugin-local-intros-extended/main/icon.png",
+    "imageUrl": "https://raw.githubusercontent.com/pashdown/jellyfin-plugin-local-intros-extended/main/icon.png",
     "versions": [
       {
-        "version": "2.3.0.0",
-        "changelog": "- Jellyfin 12 support (.NET 10)\n- Automatic and safe database migration without data loss\n- GUID-preserving intro recovery\n- Database sync status detection banner in settings",
+        "version": "2.3.1.0",
+        "changelog": "- Fix Refresh Videos / Hard Reset failing with \"[object Response]\": show real server errors, sequence requests, avoid GUID collisions, ignore non-video files\n- Hard Reset now also clears rules as labeled\n- Sync status banner now actually displays",
         "targetAbi": "12.0.0.0",
-        "sourceUrl": "https://github.com/dheinst/jellyfin-plugin-local-intros-extended/releases/download/v2.3.0.0/LocalIntrosExtended_2.3.0.0.zip",
-        "checksum": "19fb2d4133e145f66b604d7ddc4b93c4",
-        "timestamp": "2026-09-17T12:00:00Z"
+        "sourceUrl": "https://github.com/pashdown/jellyfin-plugin-local-intros-extended/releases/download/v2.3.1.0/LocalIntrosExtended_2.3.1.0.zip",
+        "checksum": "2f930c34a21e7fff1b82b24ff7a702e3",
+        "timestamp": "2026-10-28T00:12:00Z"
       }
     ]
   }

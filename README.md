@@ -6,8 +6,8 @@
 <h3 align="center">Advanced, rule-based pre-roll intros for Jellyfin</h3>
 
 <p align="center">
-  <a href="https://github.com/dheinst/jellyfin-plugin-local-intros-extended/blob/main/LICENSE">
-    <img alt="GPL-3.0 License" src="https://img.shields.io/github/license/dheinst/jellyfin-plugin-local-intros-extended.svg"/>
+  <a href="https://github.com/pashdown/jellyfin-plugin-local-intros-extended/blob/main/LICENSE">
+    <img alt="GPL-3.0 License" src="https://img.shields.io/github/license/pashdown/jellyfin-plugin-local-intros-extended.svg"/>
   </a>
   <img alt="Jellyfin Version" src="https://img.shields.io/badge/Jellyfin-12.0%2B-purple.svg" />
   <img alt=".NET Version" src="https://img.shields.io/badge/.NET-10.0-blue.svg" />
@@ -53,7 +53,7 @@ Choose the installation method that fits you best:
    * **Repository Name**: `Local Intros Extended`
    * **Repository URL**:
      ```text
-     https://raw.githubusercontent.com/dheinst/jellyfin-plugin-local-intros-extended/main/manifest.json
+     https://raw.githubusercontent.com/pashdown/jellyfin-plugin-local-intros-extended/main/manifest.json
      ```
 4. Click **Save**.
 5. Switch to the **Catalog** tab, find **Local Intros Extended** under *Movies and Shows*, and click **Install**.
@@ -64,7 +64,7 @@ Choose the installation method that fits you best:
 ### Option 2: Pre-built Release (Manual)
 *Best if you prefer not to add custom repositories to your server.*
 
-1. Go to the [Releases](https://github.com/dheinst/jellyfin-plugin-local-intros-extended/releases) page and download the latest `LocalIntrosExtended_x.x.x.x.zip` (or `.dll`).
+1. Go to the [Releases](https://github.com/pashdown/jellyfin-plugin-local-intros-extended/releases) page and download the latest `LocalIntrosExtended_x.x.x.x.zip` (or `.dll`).
 2. Navigate to your Jellyfin `plugins` folder:
    * **Linux / Docker**: `/config/plugins/`
    * **Windows**: `C:\ProgramData\Jellyfin\Server\plugins\`
@@ -83,7 +83,7 @@ Choose the installation method that fits you best:
 1. Install the [.NET 10.0 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) (or newer).
 2. Clone this repository:
    ```bash
-   git clone https://github.com/dheinst/jellyfin-plugin-local-intros-extended.git
+   git clone https://github.com/pashdown/jellyfin-plugin-local-intros-extended.git
    ```
 3. Build the plugin:
    ```bash
@@ -97,6 +97,7 @@ Choose the installation method that fits you best:
 ## 📄 Credits & Attribution
 
 * Forked and enhanced by [@dheinst](https://github.com/dheinst).
+* This fork ([pashdown/jellyfin-plugin-local-intros-extended](https://github.com/pashdown/jellyfin-plugin-local-intros-extended)) is maintained by [@pashdown](https://github.com/pashdown); upstream is [dheinst/jellyfin-plugin-local-intros-extended](https://github.com/dheinst/jellyfin-plugin-local-intros-extended).
 * Based on the original [Jellyfin Intros Plugin](https://github.com/jellyfin/jellyfin-plugin-intros) created by [@dkanada](https://github.com/dkanada).
 
 ---
